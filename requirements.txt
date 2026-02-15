@@ -4,3 +4,4 @@ ipywidgets
 openpyxl
 streamlit
 streamlit-folium
+altair
