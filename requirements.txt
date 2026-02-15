@@ -2,6 +2,5 @@ pandas
 folium
 ipywidgets
 openpyxl
-streamlit==1.32.0
+streamlit
 streamlit-folium
-altair==4.2.2
