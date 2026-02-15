@@ -156,6 +156,19 @@ def display_results_on_map(df_results, user_lat, user_lon):
 # =========================
 # STREAMLIT UI (SIDEBAR)
 # =========================
+# Custom CSS to force primary buttons to have black text
+st.markdown("""
+    <style>
+    /* Target only primary buttons */
+    .stButton > button[kind="primary"] {
+        color: #000000 !important;
+    }
+    /* Target the hover state as well to keep it black */
+    .stButton > button[kind="primary"]:hover {
+        color: #000000 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 st.title("⚽ Stadium Finder")
 st.markdown("Find the nearest sports facilities based on your criteria.")
