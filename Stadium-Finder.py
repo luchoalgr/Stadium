@@ -148,7 +148,7 @@ def display_results_on_map(df_results, user_lat, user_lon):
                 border_color='green' if ranking == 1 else 'blue',
                 text_color='green' if ranking == 1 else 'blue',
                 icon_shape='marker',
-                inner_icon_style="display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold;"
+                inner_icon_style="display: flex; justify-content: center; align-items: center; margin-top: 0px; font-size: 14px; font-weight: bold;"
             )
         ).add_to(m)
     return m
